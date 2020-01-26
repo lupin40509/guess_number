@@ -1,6 +1,9 @@
 import random
 
-ans = random.randint(1, 100) # 設計亂數答案
+start = int(input('請輸入這次猜謎範圍起始值:'))
+end = int(input('請輸入這次猜謎範圍結束值:'))
+
+ans = random.randint(start, end) # 設計亂數答案
 count = int(0) #猜謎次數
 
 while True:
